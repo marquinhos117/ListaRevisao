@@ -16,7 +16,7 @@ public class SubstituirLetra {
         String[] nome = new String[10];
         String caractereSubstituir = JOptionPane.showInputDialog("Digite o caractere que deseja substituir:");
 
-        StringBuilder resultado = new StringBuilder(); // Para armazenar o resultado a ser exibido
+        StringBuilder resultado = new StringBuilder();
 
         // Recebe as 10 palavras e substitui a letra
         for (int L = 0; L < 10; L++) {
